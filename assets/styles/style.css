@@ -149,11 +149,15 @@ input[type="number"] {
 
 @media only screen and (max-width: 768px) {
     #calculadora {
-        width: 390px;
+        display: grid;
+        grid-template-columns: 1fr;
+        place-content: center;
+        width: 360px;
         padding: 0x;
     }
 
     #calculadora-cabecalho {
+        display: flex;
         align-items: flex-start;
         justify-content: flex-start;
         column-gap: 5px;
